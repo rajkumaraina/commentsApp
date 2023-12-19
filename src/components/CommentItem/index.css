@@ -26,4 +26,88 @@
   background-color: #0ea5e9;
 }
 
-/* Write your CSS here */
+.eachItem {
+  list-style-type: none;
+}
+.bottomContainerItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+.likes {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 12px;
+}
+.activeLike {
+  color: #0ea5e9;
+}
+.likeContainer {
+  display: flex;
+}
+.delete {
+  width: 25px;
+  height: 25px;
+}
+.spanItem {
+  width: 40px;
+  height: 40px;
+  border-radius: 33px;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 4px;
+  color: #ffffff;
+}
+.timeContainer {
+  display: flex;
+  flex-direction: row;
+}
+.topContainer {
+  display: flex;
+}
+.time {
+  margin: 8px;
+  margin-top: 25px;
+  color: #cbd2d9;
+  font-size: 15px;
+}
+.insideContainerItem {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+.deleteButton {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 0 none;
+}
+.paraItem {
+  color: #64748b;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.headingItem {
+  font-size: 25px;
+  margin: 20px;
+}
+.hr {
+  border: 1px solid #cbd2d9;
+}
+.likeButton {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  outline: none;
+  cursor: pointer;
+  border: 0 none;
+  width: 95px;
+  font-size: 18px;
+  height: 25px;
+  outline: none;
+  cursor: pointer;
+}
